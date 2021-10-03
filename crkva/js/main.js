@@ -685,7 +685,7 @@ if(url.indexOf('prodavnica.html')!=-1)
             <div class="proizvodd"style="padding-bottom:60px;"><a href="zasebanProizvod.html" class="woocommerce-LoopProduct-link woocommerce-loop-product__link art"data-id="${element.id}"><img data-id="${element.id}" width="200" height="200" src="images/prodavnica/${element.slika}.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="${element.slika}" loading="lazy" >
             <h2 data-id="${element.id}" style="     word-wrap: break-word;width: min-content;  " class="woocommerce-loop-product__title">${element.naziv}</h2>
             
-            </a></div><div class="dodajKorpa"style=" width:max-content ;  bottom: 0px!important;position: absolute;">    <h3 style="background-color:#2e443f;color:white;">Телефон за куповину:</br><a class="a1234"  target="_blank"  href="tel:0645877322"><i class="fa fa-phone"style="color:white;font-size:25px">&nbsp;</i> 0645877322</a>.otac Milan Madzarevic<h3>
+            </a></div><div class="dodajKorpa"style=" width:max-content ;  bottom: 0px!important;position: absolute;">    <h3 style="background-color:#2e443f;color:white;">Телефон за куповину:<a class="a1234"  target="_blank"  href="tel:0645877322"><i class="fa fa-phone"style="color:white;font-size:25px">&nbsp;</i> 0645877322</a></br>.otac Milan Madzarevic<h3>
             </div>
             </div>
     
