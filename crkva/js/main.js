@@ -856,7 +856,7 @@ if(url.indexOf('zasebanProizvod.html')!=-1)
     <h1>${item.naziv}</h1>
     
     <h3 style="text-align:justify;color:#89837c!important;">Опис:${item.opis}</h3>
-    <h2 style="background-color:#2e443f;color:white;">Телефон за куповину:</br><a class="a1234"  target="_blank"  href="tel:0645877322"><i class="fa fa-phone"style="color:white;font-size:25px">&nbsp;&nbsp;&nbsp;</i>0645877322</a>.otac Milan Madzarevic<h2>
+    <h2 style="background-color:#2e443f;color:white;">Телефон за куповину:</br><a class="a1234"  target="_blank"  href="tel:0645877322"><i class="fa fa-phone"style="color:white;font-size:25px">&nbsp;&nbsp;&nbsp;</i>0645877322</a>отац Милан Маџаревић<h2>
     
     </div>
     </div>
