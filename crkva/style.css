@@ -1621,7 +1621,7 @@ opacity: 0.8;
   #pesm{
     width: 100%!important;
     display:flex;
-    align-item:center;
+    align-items:center;
     justify-content:center;
     flex-direction:column;
   } 
