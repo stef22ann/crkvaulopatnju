@@ -1623,6 +1623,7 @@ opacity: 0.8;
     display:flex;
     align-item:center;
     justify-content:center;
+    flex-direction:column;
   } 
  }
   @media (min-width: 200px) and (max-width: 500px) {
