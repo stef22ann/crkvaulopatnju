@@ -161,11 +161,11 @@
                 });/*padding-top:0px!important; */
                 ispis+=`
                 </div>
-                <div id="modal01" class="w3-modal" style="   background-color: rgba(0,0,0,0.4);
-                padding-left: 11%;padding-top:5px;" onclick="this.style.display='none'">
+                <div id="modal01" class="w3-modal" style="padding-top: 0px!important;   background-color: rgba(0,0,0,0.4);
+                z-index:999;display:flex!important;align-items:center;justify-content:center;" onclick="this.style.display='none'">
                 <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
                 <div class="w3-modal-content w3-animate-zoom" style="width:600px;    background-color: initial!important;">
-                <div><img id="img01" style="width:75%"></div>
+                <div><img id="img01" style="width:100%"></div>
                 </div>
               </div>
                 `
