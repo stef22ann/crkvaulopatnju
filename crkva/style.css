@@ -1617,6 +1617,14 @@ opacity: 0.8;
     display: flex;
     justify-content: center;
   } }
+@media(max-width: 992px) {
+  #pesm{
+    width: 100%!important;
+    display:flex;
+    align-item:center;
+    justify-content:center;
+  } 
+ }
   @media (min-width: 200px) and (max-width: 500px) {
     .vest{
       width: 70%!important;
