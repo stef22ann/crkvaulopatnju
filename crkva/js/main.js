@@ -237,7 +237,7 @@
                     
                     ">
                     
-                    <a href="dogadjaji.html"data-id="${element.id}"class="slika"> <img  src="images/${element.slika}" style="width:170px!important; height: 121px;" alt=""></a>
+                    <a href="dogadjaji.html"data-id="${element.id}"class="slika"> <img  src="images/${element.slika}" style="width:170px!important; height: 121px;" alt="${element.slika}"></a>
                     
                     <div class="seremon-detail"style="margin-left: 11%;">
                         <h3 class="seremon-title"><a class="slika" href="dogadjaji.html?id=${element.id}" data-id="${element.id}">${element.naslov}</a></h3>
@@ -290,7 +290,7 @@
         
         <div class="seremon-detail" style="display:flex;flex-direction:column;">
             
-        <div style="justify-content:center;display:flex" ><img  src="images/${zasebanDogadjaj.slika}" style=" max-width: -webkit-fill-available; " alt=""></div>
+        <div style="justify-content:center;display:flex" ><img  src="images/${zasebanDogadjaj.slika}" style=" max-width: -webkit-fill-available; " alt="${zasebanDogadjaj.slika}"></div>
             <div style="font-size:18px;"><p>${zasebanDogadjaj.vise}</p>
             <div>${obradaSlika(zasebanDogadjaj.ostaleSlike)}</div>
             </div>
@@ -563,7 +563,7 @@ if(url.indexOf('svaCuda.html')!=-1)
         result.forEach(element => {
             ispis+=                    `
             <li>
-            <a href="cuda.html"data-id="${element.id}"class="slika3"> <img  src="${element.slika}" style="width: 121px; height: 121px;" alt=""></a>
+            <a href="cuda.html"data-id="${element.id}"class="slika3"> <img  src="${element.slika}" style="width: 121px; height: 121px;" alt="${element.slika}"></a>
             <div class="seremon-detail">
                 <h3 class="seremon-title"><a class="slika3" href="cuda.html" data-id="${element.id}">${element.naziv}</a></h3>
     
@@ -848,7 +848,7 @@ if(url.indexOf('zasebanProizvod.html')!=-1)
     
     
     ">
-    <a href="#"style="width: 50%;"  class="slikaCudo" data-id="${item.id}"><img class="news-image" style="width: 100%;" src="images/prodavnica/${item.slika}.jpg"></a>
+    <a href="#"style="width: 50%;"  class="slikaCudo" data-id="${item.id}"><img class="news-image" style="width: 100%;" src="images/prodavnica/${item.slika}.jpg" alt="${item.slika}"></a>
     <div style="    display: flex;
     flex-direction: column;
     justify-content: flex-start;
